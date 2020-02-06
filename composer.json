@@ -1,0 +1,15 @@
+{
+    "name": "dell/weather",
+    "authors": [
+        {
+            "name": "Weather",
+            "email": "quellerymagar@gmail.com"
+        }
+    ],
+    "require": {
+        "yahooweather/weather": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Weather\\": "src/"}
+    }
+}

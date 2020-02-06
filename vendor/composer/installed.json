@@ -1,0 +1,52 @@
+[
+    {
+        "name": "yahooweather/weather",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/arabnewscms/yahooweather.git",
+            "reference": "01e067122c397f03fa52cebcd139eb16ebeae41a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/arabnewscms/yahooweather/zipball/01e067122c397f03fa52cebcd139eb16ebeae41a",
+            "reference": "01e067122c397f03fa52cebcd139eb16ebeae41a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-04-24T15:48:31+00:00",
+        "type": "package",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "YahooWeather\\Weather\\": "/src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP ANONYMOUS",
+                "email": "gm@phpanonymous.com",
+                "homepage": "http://phpanonymous.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple package to Get yahoo weather created By PHPAnonymous",
+        "homepage": "http://phpanonymous.com",
+        "keywords": [
+            "laravel",
+            "lumen",
+            "phpanonymous",
+            "phpanonymous.com",
+            "weather",
+            "yahoo",
+            "yql"
+        ]
+    }
+]
